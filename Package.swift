@@ -9,12 +9,12 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/thebrowsercompany/swift-cwinrt",
-            branch: "eb46cdb66f770a1e006f9fcfebbf9e99a0fba811"
+            url: "https://github.com/moreSwift/swift-cwinrt",
+            .upToNextMinor(from: "0.1.0")
         ),
         .package(
-            url: "https://github.com/stackotter/swift-windowsfoundation",
-            branch: "4ad57d20553514bcb23724bdae9121569b19f172"
+            url: "https://github.com/moreSwift/swift-windowsfoundation",
+            .upToNextMinor(from: "0.1.0")
         ),
     ],
     targets: [
